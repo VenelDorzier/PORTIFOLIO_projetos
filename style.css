@@ -1,0 +1,286 @@
+body {
+    width: 480px;
+    height: 400px;
+     border: 1px solid black;
+     margin: auto; 
+     background-color: white;
+     font-family: 'Times New Roman', Times, serif;
+     color: #000000;
+ 
+ }
+ 
+ h1 {
+     margin: 1px;
+     color: black;
+     border-radius: 10px;   
+     font-family: 'Times New Roman', Times, serif;
+ 
+ }
+ 
+ h2 {
+     font-family: 'Times New Roman', Times, serif;
+     color: black;
+     border-radius: 10px;
+     margin: 0px
+ }
+ section h3 {
+     font-family: 'Times New Roman', Times, serif;
+     color: dimgrey;
+     background-color: black;
+     border-radius: 10px
+ }
+ 
+ section {
+     background-color: lightslategray;
+ 
+ }
+  
+ section p {
+ text-align: justify;
+ }
+ 
+ 
+ /* Navegação  */
+ 
+ nav {
+     display: flex;
+     flex-direction: column;
+    
+ }
+ 
+ nav > a {
+     display: flex;
+     justify-content: space-evenly;
+     text-decoration: none;
+     color: black;
+     font-size: 32px;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ nav ul {
+     font-family: 'Times New Roman', Times, serif;
+     display: flex;
+     justify-content: space-evenly;
+     margin-right: 30px;
+     margin-left: 30px;
+     border-radius: 10px;
+     list-style: none;
+     padding: 0;
+ 
+ }
+ 
+ nav ul li a {
+     display: list-item;
+     background-color: black;
+     list-style: none;
+     padding: 10px 0;
+     text-decoration: none;
+     color: white;
+    
+ }
+ 
+ nav section {
+     display: none;
+ }
+ 
+ nav section:target {
+     display: block;
+ }
+ 
+ 
+ /* Cabeçalho */
+ 
+ header {
+     display: flex;
+     justify-content: flex-end;
+     background-color: cyan;
+     flex-direction: column;
+     align-items: center;
+       
+ }
+ 
+ header img {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     border: 10px solid black;
+ }
+  
+ header p {
+     font-family: 'Times New Roman', Times, serif;
+     text-align: justify;
+ 
+ }   
+ 
+ footer {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 0px;
+ 
+ }
+
+ .container{
+     
+     width: 80%;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .container form{
+     width: 90%;
+     max-width: 500px;
+     padding: 50px 30px 20px;
+     background: #fff;
+     border-radius: 4px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+     position: relative;
+ }
+ 
+ .fa-paper-plane{
+     position: absolute;
+     top: 0;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     background: #fff;
+     font-size: 26px;
+     padding: 20px;
+     border-radius: 50%;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ 
+ 
+ .fa-paper-plane{
+     position: absolute;
+     top: 0;
+     left: 50%;
+     transform: translate(-50%,-50%);
+     background: #fff;
+     font-size: 26px;
+     padding: 20px;
+     border-radius: 50%;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ }
+ 
+ .input-group{
+     bottom: 12px;
+     right: 5px;
+     font-size: 18px;
+     color: red; width: 100%;
+     display: flex;
+     align-items: center;
+     margin: 15px 0;
+     position: relative;
+ 
+ }
+ 
+ .input-group label{
+     display: inline-block;
+     margin-bottom: 10px;
+     text-align: left;
+     color: black;
+     font-size: 20px;
+     flex-basis: 28%;
+     font-family: 'Times New Roman', Times, serif;
+
+ }
+ .input-group input{
+     display: flex;
+     justify-content: right;
+     border: 2px solid #3E445B;
+     border-radius: 5px;
+     font-size: 14px;
+     width: 80%;
+     padding: 8px;
+ }
+ 
+ .input-group textarea{
+     border: 2px solid #3E445B;
+     border-radius: 15px;
+     font-size: 14px;
+     padding: 8px;
+     width: 80%;
+ 
+ }
+ 
+ .placeholder{
+     font-size: 14px;
+ }
+ 
+ footer button{
+     display: inline-block;
+     justify-content: center;
+     font-size: 15px;
+     background-color: deeppink;
+     border-radius: 5px;
+     color: black;
+     padding: 8px;
+     font-weight: 600;
+     margin-top: 5px;
+     width: 100%;
+     height: 10%;
+     cursor: pointer;
+ 
+ }
+ 
+ .input-group span{
+    position: absolute;
+    bottom: 12px;
+    right: 18px;
+    font-size: 15px;
+    color: red;
+ }
+ 
+ #submit-erro{
+     color: red;
+ }
+ 
+ .input-group span i {
+     color: seagreen;
+ 
+ }
+ 
+ footer img {
+     width: 20px;
+     height: 20px;
+     display: inline-block;
+     flex-direction: column;
+     padding: 10px;	
+     border-radius: 10px;
+     background-color: blue; 
+     margin-top: 10px;
+  }
+ 
+ footer p {
+     display: inline-block;
+     text-align: justify;
+     margin: 5%;
+     font-family: 'Times New Roman', Times, serif;
+        
+ }
+ 
+  footer a {
+     text-align: justify;
+     margin-top: 4px;
+     color: black;
+     background-color: white;
+ 
+  }
+ 
+  footer a p{
+     margin: 5px;   
+ } 
+     
+ 
+ 
+ 
+     
+ 
+ 
+ 
+ 
+ 
