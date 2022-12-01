@@ -6,10 +6,8 @@ body {
      background-color: white;
      font-family: 'Times New Roman', Times, serif;
      color: #000000;
- 
- }
- 
- h1 {
+}
+h1 {
      margin: 1px;
      color: black;
      border-radius: 10px;   
@@ -17,13 +15,13 @@ body {
  
  }
  
- h2 {
+h2 {
      font-family: 'Times New Roman', Times, serif;
      color: black;
      border-radius: 10px;
      margin: 0px
  }
- section h3 {
+section h3 {
      font-family: 'Times New Roman', Times, serif;
      color: dimgrey;
      background-color: black;
@@ -35,20 +33,20 @@ body {
  
  }
   
- section p {
- text-align: justify;
+section p {
+     text-align: justify;
  }
  
  
  /* Navegação  */
  
- nav {
+nav {
      display: flex;
      flex-direction: column;
     
  }
  
- nav > a {
+nav > a {
      display: flex;
      justify-content: space-evenly;
      text-decoration: none;
@@ -57,7 +55,7 @@ body {
      font-family: 'Times New Roman', Times, serif;
  }
  
- nav ul {
+nav ul {
      font-family: 'Times New Roman', Times, serif;
      display: flex;
      justify-content: space-evenly;
@@ -69,7 +67,7 @@ body {
  
  }
  
- nav ul li a {
+nav ul li a {
      display: list-item;
      background-color: black;
      list-style: none;
@@ -79,18 +77,18 @@ body {
     
  }
  
- nav section {
+nav section {
      display: none;
  }
  
- nav section:target {
+nav section:target {
      display: block;
  }
  
  
  /* Cabeçalho */
  
- header {
+header {
      display: flex;
      justify-content: flex-end;
      background-color: cyan;
@@ -99,20 +97,20 @@ body {
        
  }
  
- header img {
+header img {
      width: 150px;
      height: 150px;
      border-radius: 50%;
      border: 10px solid black;
  }
   
- header p {
+header p {
      font-family: 'Times New Roman', Times, serif;
      text-align: justify;
  
  }   
  
- footer {
+footer {
      width: 100%;
      height: 100%;
      display: flex;
@@ -122,7 +120,7 @@ body {
  
  }
 
- .container{
+.container{
      
      width: 80%;
      height: 100vh;
@@ -131,7 +129,7 @@ body {
      justify-content: center;
  }
  
- .container form{
+.container form {
      width: 90%;
      max-width: 500px;
      padding: 50px 30px 20px;
@@ -141,7 +139,7 @@ body {
      position: relative;
  }
  
- .fa-paper-plane{
+.fa-paper-plane {
      position: absolute;
      top: 0;
      left: 50%;
@@ -154,7 +152,7 @@ body {
  }
  
  
- .fa-paper-plane{
+.fa-paper-plane {
      position: absolute;
      top: 0;
      left: 50%;
@@ -166,7 +164,7 @@ body {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
  }
  
- .input-group{
+.input-group {
      bottom: 12px;
      right: 5px;
      font-size: 18px;
@@ -187,8 +185,8 @@ body {
      flex-basis: 28%;
      font-family: 'Times New Roman', Times, serif;
 
- }
- .input-group input{
+}
+.input-group input {
      display: flex;
      justify-content: right;
      border: 2px solid #3E445B;
@@ -196,22 +194,22 @@ body {
      font-size: 14px;
      width: 80%;
      padding: 8px;
- }
+}
  
- .input-group textarea{
+.input-group textarea {
      border: 2px solid #3E445B;
      border-radius: 15px;
      font-size: 14px;
      padding: 8px;
      width: 80%;
  
- }
+}
  
- .placeholder{
+.placeholder {
      font-size: 14px;
- }
+}
  
- footer button{
+footer button {
      display: inline-block;
      justify-content: center;
      font-size: 15px;
@@ -225,26 +223,26 @@ body {
      height: 10%;
      cursor: pointer;
  
- }
- 
- .input-group span{
+}
+
+.input-group span{
     position: absolute;
     bottom: 12px;
     right: 18px;
     font-size: 15px;
     color: red;
- }
+}
  
- #submit-erro{
+#submit-erro{
      color: red;
  }
  
- .input-group span i {
+.input-group span i {
      color: seagreen;
  
  }
  
- footer img {
+footer img {
      width: 20px;
      height: 20px;
      display: inline-block;
@@ -255,7 +253,7 @@ body {
      margin-top: 10px;
   }
  
- footer p {
+footer p {
      display: inline-block;
      text-align: justify;
      margin: 5%;
@@ -263,7 +261,7 @@ body {
         
  }
  
-  footer a {
+footer a {
      text-align: justify;
      margin-top: 4px;
      color: black;
@@ -271,7 +269,7 @@ body {
  
   }
  
-  footer a p{
+footer a p {
      margin: 5px;   
  } 
      
